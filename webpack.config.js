@@ -41,7 +41,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, '/dist'),
     publicPath: '/',
-    filename: 'bundle.js',
+    filename: 'dist.js',
     library: 'Carousel',
     libraryTarget: 'umd',
     libraryExport: 'default'
